@@ -1,0 +1,38 @@
+Step-1 How To create Maven Project
+Create a Maven Project?
+Answer: (File-New-MavenProject-ClickCreateSimpleProject-Put GroupId and Artifact Id-Finish))
+How to Update Java Version?
+Answer: <properties>
+        <maven.compiler.source>20</maven.compiler.source>
+        <maven.compiler.target>20</maven.compiler.target>
+   </properties>
+   Find out what java version on my local Computer?
+   Answer: go to Windows c - programfiles-java
+   Make sure do not put higher version then java current version. You can put lower version.
+   
+   Step-2 How to add Dependencies
+   Answer: Add <dependencies>
+   Add put necessary dependency
+   				</dependencies>
+  How to find maven dependencies?
+  Answer: Go to https://mvnrepository.com/ and 
+  search Selenium Java and copy the latest version and paste it to the inside of dependencies.
+  search WebDriverManager and copy the latest version and paste it to the inside of dependencies.
+  search TestNG and copy the latest version and paste it to the inside of dependencies.
+  And do the Maven Update.
+  
+  Create a Java Class in src/main/java to make sure java is working?
+  Create a Java Class in src/Test/java to make sure TestNG is working?
+  Create a Test Case with Chrome and Edge to Test Selenium?
+ 
+  WebDriverManager.Chromedriver(.setup();
+  
+  WebDriverManager will find out what version browser i have in my local machine
+   and then it will provide matching driver.exe file.
+   
+   driver.exe file job is supply the source or test code
+   browser job is display supplied code properly
+  
+  
+  //Create a Github Account
+  //Download GitBash App in my computer
