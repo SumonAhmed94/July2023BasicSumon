@@ -4,6 +4,7 @@ import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -30,6 +31,8 @@ public class RegularCSS {
 	//driver.findElement(By.cssSelector(".pass")).sendKeys("fydgh12");
 	//start with
 	driver.findElement(By.cssSelector("[id^='u_0_5_']")).click();
-	driver.quit();
+	//driver.quit();
 	}
-}
+	
+	}
+
