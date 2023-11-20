@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.facebook.pageFactory.LoginTest">
+      <class name="com.facebookFrameWork.LinkTest">
         <methods>
-          <include name="boundryloginTest"/>
+          <include name="closeApp"/>
+          <include name="signupLinkTest"/>
           <include name="openApp"/>
         </methods>
-      </class> <!-- com.facebook.pageFactory.LoginTest -->
+      </class> <!-- com.facebookFrameWork.LinkTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
